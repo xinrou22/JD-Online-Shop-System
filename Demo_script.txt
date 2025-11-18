@@ -1,0 +1,25 @@
+*Greetings* - Group 05 - JDOnlineShop - selling collectible shoes
+*Current working: System - breakdown*
+- front-end (customer: register account, view product, add to cart)
+- back-end (staffs: manage products, manage staffs, view customer and order)
+*Demo:*
+1. Front: User view landing page, nav - credit EnYi
+2. Front: User view catalog page - credit Ben
+3. Front: User register account - credit xh, xinrou
+4. Front: User login - credit EnYi & xinrou
+5. Front: User update account - credit xh
+6. Front: User add item to cart (WIP) - credit ben, enyi 
+7. Back: Staff login - credit xinrou, joshua for initial template
+8. Back: Staff management dashboard - credit xinrou
+9. Back: Staff add product - credit xinrou, ben
+10. Back: Staff update product - credit xinrou, ben
+11. Back: Staff add new staff user and assign roles - credit xinrou
+12. Back: Staff view customer & orders - credit all
+13. Back: Staff update order will be saved (WIP) - credit xinrou
+14. Asthethics, info pages - credit joshua
+
+*2 ways functionality demo:*
+a) customer update profile, item will be reflected on back-end
+b) staff update new product, item will be reflected on catalog page
+
+QNA:

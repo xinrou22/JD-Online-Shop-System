@@ -1,0 +1,268 @@
+﻿
+.table1 {
+    border-collapse: collapse;
+    /*margin-left: 200px;*/
+    border: 1px solid #dbd5d5;
+}
+
+.td, td, tr {
+    margin-top: 10rem;
+    border: 1px solid #dbd5d5;
+    width: 100px;
+    padding: 15px;
+}
+
+.cover {
+    height: 325px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 0.9rem;
+    font-family: Verdana;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #1B99D4;
+    font-family: Verdana;
+}
+
+.stockIndicator {
+    color: green;
+    font-family: Verdana;
+    font-size: 0.85rem;
+}
+
+.bi-circle-fill {
+    color: green;
+}
+
+.bookGroup {
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-decoration: none;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.Map{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Map h1 {
+    font-size: 2rem;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+/*--------login page--------*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBF5FB;
+    min-height: 83vh;
+    min-width: 100%;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 600px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btn-1{
+    height: 35px;
+    background: #000000;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn-1:hover{
+    opacity: 0.7;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+
+
+/*--------register page--------*/
+/*.two-forms{
+    display: flex;
+    gap: 50px;
+}*/
+
+.form-box-2{
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-box-2 header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-box-2 form .field{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+
+}
+.form-box-2 form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form-box-2 form .input select{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/*message of login and register page*/
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+.success{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+    }
+}
